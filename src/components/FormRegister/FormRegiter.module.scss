@@ -1,0 +1,37 @@
+.container {
+	color: #fff;
+}
+.title {
+	font-weight: 700;
+	font-size: 32px;
+}
+.sub-title {
+	font-size: 14px;
+	padding: 12px 0 20px 32px;
+}
+.input-form {
+	width: 35ppx;
+}
+.input {
+	height: 30px;
+	width: 240px;
+	padding-left: 10px;
+	border: none;
+	border-radius: 4px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.btn-subscribe {
+	height: 30px;
+	width: 70px;
+	border-radius: 4px;
+	background-color: #0071c2;
+	margin-left: 8px;
+	border: none;
+	color: #fff;
+	&:hover {
+		cursor: pointer;
+		background-color: #69a9da;
+	}
+}

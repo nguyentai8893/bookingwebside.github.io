@@ -1,0 +1,16 @@
+.btn-container {
+}
+.btn {
+	width: auto;
+	margin-left: 20px;
+	height: 30px;
+	font-weight: 500;
+	background-color: #fff;
+	color: #4252e2;
+	border: none;
+	&:hover {
+		cursor: pointer;
+
+		background-color: #ccc;
+	}
+}

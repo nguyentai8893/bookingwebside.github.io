@@ -1,0 +1,119 @@
+.container {
+	display: grid;
+	grid-template-columns: auto 1.5fr 0.6fr;
+	grid-gap: 12px;
+	width: 100%;
+	height: 280px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.content-image {
+	width: 240px;
+	height: 100%;
+}
+.image {
+	height: 95%;
+	width: 100%;
+	padding: 8px;
+	object-fit: cover;
+	&:hover {
+		scale: 1.1;
+		transition: ease-out 0.1s;
+	}
+}
+.content-des {
+	width: 100%;
+	height: 100%;
+	padding: 12px 0 0 12px;
+	.description-name {
+		font-size: 24px;
+		color: #0271c2;
+		padding-bottom: 18px;
+	}
+	.description-tag {
+		display: block;
+		font-size: 14px;
+		padding-top: 4px;
+		margin: 0 4px;
+		text-align: center;
+		color: #fff;
+		width: max-content;
+		height: 25px;
+		border-radius: 6px;
+		background-color: #008009;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.description-studio {
+		padding: 10px 0;
+	}
+	.frecancel {
+		padding: 18px 0;
+		color: #008009;
+	}
+}
+.conten-price {
+	padding-top: 12px;
+	.description-name-rate {
+		display: grid;
+		padding-right: 6px;
+		grid-template-columns: 3fr 1fr;
+		grid-template-rows: 1fr 3fr 1fr;
+		align-items: center;
+		.description-rate-text {
+			font-weight: 700;
+			font-style: 22px;
+		}
+		.description-rate {
+			padding-top: 5px;
+			text-align: center;
+			font-size: 16px;
+			width: 30px;
+			height: 28px;
+			color: #fff;
+			background-color: #003580;
+		}
+	}
+
+	.price {
+		padding-right: 16px;
+		.price-price {
+			display: grid;
+			justify-content: flex-end;
+			font-size: 24px;
+			font-weight: 600;
+		}
+		.price-text {
+			display: grid;
+			justify-content: flex-end;
+			font-size: 12px;
+			color: #aca6a6;
+		}
+	}
+	.price-btn {
+		display: grid;
+		justify-content: flex-end;
+		padding: 6px 12px 4px 0;
+		.btn {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			background-color: #0071c2;
+			font-size: 16px;
+			font-weight: 600;
+			border: none;
+			width: 160px;
+			height: 40px;
+			border-radius: 6px;
+			text-align: center;
+			&:hover {
+				cursor: pointer;
+				background-color: #0e5080;
+			}
+		}
+	}
+}

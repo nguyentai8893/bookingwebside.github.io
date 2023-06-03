@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	position: absolute;
+	top: 100px;
+	left: 20%;
+}
+.container-service {
+	display: flex;
+	align-items: center;
+	padding: 0 14px 0 14px;
+	height: 50px;
+	margin: 0 24px;
+	list-style: none;
+	&:hover {
+		cursor: pointer;
+		color: #e6e22d;
+	}
+}
+.text {
+	padding-left: 10px;
+}
+.active {
+	border: 1px solid #fff;
+	border-radius: 25px;
+}

@@ -1,0 +1,76 @@
+.form-input {
+	position: relative;
+	bottom: 0;
+	left: 50%;
+	z-index: 9;
+	background-color: #ffffff;
+	padding: 0 40px;
+	width: 54%;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 3px solid#febb02;
+	border-radius: 4px;
+	transform: translate(-50%, -40%);
+	.date-range-container {
+		z-index: 999;
+
+		position: absolute;
+		top: 40px;
+		left: 32%;
+		transform: translateX(-0%) translateY(-0%);
+		opacity: 0;
+		animation: side-in 0.5s ease-in-out forwards;
+		animation-delay: 0.5s;
+		.date-range {
+			width: 380px;
+		}
+		@keyframes side-in {
+			from {
+				opacity: 0;
+				transition: ease-in;
+				transform: translateY(-10px);
+			}
+			to {
+				opacity: 1;
+				transition: ease-in;
+				transform: translateY(0);
+			}
+		}
+
+		.icon-x {
+			:hover {
+				cursor: pointer;
+				color: red;
+			}
+		}
+	}
+}
+.icon {
+	color: #d3d3d3;
+	padding: 0 8px;
+}
+.input {
+	background-color: #ffffff;
+	width: 200px;
+	height: 100%;
+	border: #dbb4b4;
+	outline: none;
+	caret-color: rgb(223, 47, 47);
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.btn-search {
+	color: #fff;
+	background-color: #0071c2;
+	height: 90%;
+	width: 64px;
+	border: none;
+	&:hover {
+		cursor: pointer;
+		background-color: #5ea5d8;
+	}
+}

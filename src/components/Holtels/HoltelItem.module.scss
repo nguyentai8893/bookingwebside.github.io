@@ -1,0 +1,27 @@
+.container {
+	width: 100%;
+	height: auto;
+	padding-top: 60px;
+}
+.card {
+	overflow: hidden;
+	width: 210px;
+	height: 170px;
+	margin: 0 8px;
+	border-radius: 8px 8px 0 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card-image:hover {
+	transform: scale(1.1);
+	transition: transform 0.3s ease;
+}
+.enclose-text {
+	color: #1b1a1a;
+}
+.name-holtel {
+	font-size: 16px;
+}
+.name-holtel,
+.count-holtel {
+	padding: 8px 0 0 8px;
+}

@@ -1,0 +1,22 @@
+.header {
+	position: absolute;
+	left: 21%;
+	top: 200px;
+}
+.header-title {
+	font-weight: 600;
+}
+.sub-title {
+	display: block;
+	padding: 2px 0 2px 0;
+}
+.btn {
+	height: 36px;
+	color: #fff;
+	background-color: #0071c2;
+	border: none;
+	&:hover {
+		cursor: pointer;
+		background-color: #69aad8;
+	}
+}

@@ -1,0 +1,16 @@
+.navbar-container {
+  position: relative;
+  height: 450px;
+  width: 100%;
+  background-color: #003580;
+  color: #fff;
+}
+.container-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 0 0 40px;
+  justify-content:space-around;
+}
+.heading {
+  font-weight: 500;
+}
